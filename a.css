@@ -1,0 +1,23 @@
+html{
+    background-color: cornsilk;
+}
+body{
+    background-color: aliceblue;
+    margin:0 200;
+}
+.image{
+    height: auto;
+    max-width: 500px;
+    animation: fadein 5s;
+}
+@keyframes fadein{
+    from{opacity: 0;}
+    to{opacity: 1;}
+    }
+p, h1, h2{
+    margin:16px 35px;
+}
+img{
+    display: block;
+    margin: 0px auto;
+}
